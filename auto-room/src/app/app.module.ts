@@ -9,6 +9,7 @@ import { FooterComponent } from './footer/footer.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './register/register.component';
 import { HousDetailComponent } from './hous-detail/hous-detail.component';
+import { SplashscreenComponent } from './splashscreen/splashscreen.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +20,7 @@ import { HousDetailComponent } from './hous-detail/hous-detail.component';
     LoginComponent,
     RegisterComponent,
     HousDetailComponent,
+    SplashscreenComponent,
   ],
   imports: [
     BrowserModule,
